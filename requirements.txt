@@ -1,0 +1,7 @@
+torch
+fastapi
+uvicorn
+numpy
+Pillow
+torchvision
+jinja2
