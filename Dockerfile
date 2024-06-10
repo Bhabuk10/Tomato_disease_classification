@@ -6,7 +6,7 @@ WORKDIR /app
 # Copy the requirements file into the container
 COPY requirements.txt .
 
-COPY ML/sequential_model.pth /app/ML/
+COPY ML/model_1.pth /app/ML/
 
 # COPY static/Images /app/static/Images
 
