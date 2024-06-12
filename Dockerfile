@@ -13,7 +13,7 @@ COPY ML/model_1.pth /app/ML/
 # Install the Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the entire application code into the container2
+# Copy the entire application code into the container
 COPY . .
 
 # Expose the port on which the FastAPI application will run
