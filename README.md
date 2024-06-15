@@ -29,7 +29,7 @@ Our classes are:
 
 4. Download the dataset from [Tomato Leaf Disease Detection on Kaggle](https://www.kaggle.com/datasets/kaustubhb999/tomatoleaf) and place it in the `Datasets` folder.
 
-5. Correct the paths to the Datasets and train the Model using the code in ML/train.ipynb.
+5. Correct the paths to the tomato images Dataset and train the Model using the code in ML/train.ipynb.
 
 6. Add your ML model to the `ML` folder and change the paths in the code to point to your model.
 
