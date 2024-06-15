@@ -68,8 +68,11 @@ class ImprovedPlantVillageCNN(nn.Module):
 # Load the trained PyTorch model
 model = ImprovedPlantVillageCNN()
 
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+model.load_state_dict(torch.load(r'C:\Users\User\Desktop\Tomato_disease_classification\ML\model_1.pth'))
 # model.load_state_dict(torch.load(r'C:\Users\User\Desktop\Tomato_disease_classification\ML\model_1.pth'))
-model.load_state_dict(torch.load('/app/ML/model_1.pth'))
+# model.load_state_dict(torch.load('/app/ML/model_1.pth'))
+
 model.eval()
 
 # Define the class labels
